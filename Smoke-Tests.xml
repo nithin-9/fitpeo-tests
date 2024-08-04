@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Fit peo Tests" thread-count="5" group-by-instances="true" preserve-order="true">
+	<groups>
+		<run>
+			<include name="smoke" />
+		</run>
+	</groups>
+	<parameter name="ENVIRONMENT" value="ENV-1"/>
+
+	<suite-files>
+		<suite-file path="Test-Suites/smoke/Non-Dependent-Parallel-Chrome.xml"/>
+
+
+
+	</suite-files>
+
+</suite> <!-- Suite -->

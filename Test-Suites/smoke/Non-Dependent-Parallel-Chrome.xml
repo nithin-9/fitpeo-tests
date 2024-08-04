@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="[Smoke][Non Dependent] Parallel Tests" thread-count="3" group-by-instances="true" preserve-order="true">
+	<parameter name="BROWSER" value="CHROME"/>
+
+
+	<test name="[GET] [UM-L-0001] Verify Login And Get Access, Refresh Token and Tenant ID">
+		<classes>
+			<class name="pagetests.fitpeoTests"/>
+		</classes>
+	</test>
+
+</suite> <!-- Suite -->
