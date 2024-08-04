@@ -4,7 +4,7 @@
 	<parameter name="BROWSER" value="CHROME"/>
 
 
-	<test name="[GET] [UM-L-0001] Verify Login And Get Access, Refresh Token and Tenant ID">
+	<test name="fit peo tests">
 		<classes>
 			<class name="pagetests.fitpeoTests"/>
 		</classes>
