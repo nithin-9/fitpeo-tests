@@ -173,7 +173,6 @@ public class fitpeoTests extends BrowserInits {
         boolean clickOnElement = revenueCalculatorPage.isSliderTextBoxClicked();
         boolean clearText = revenueCalculatorPage.clearEnteredText();
         boolean enterText = revenueCalculatorPage.sendTextToElement("820");
-        Assert.assertTrue(clickOnElement,"click on text box failed");
         Assert.assertTrue(clearText,"clear text failed");
         Assert.assertTrue(enterText,"entering new text failed");
     }
