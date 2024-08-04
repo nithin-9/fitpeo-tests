@@ -17,7 +17,7 @@ public class parseJson {
         try {
             Object obj = new JSONParser().parse(new FileReader("src/test/resources/test_data.json"));
             JSONObject jo = (JSONObject) obj;
-             Map page = (Map) ((Map)jo.get(Page));
+             Map page = (Map) ((Map)jo.get(Page));//change
 
             Iterator<Map.Entry> itr1 = page.entrySet().iterator();
             while (itr1.hasNext()) {
